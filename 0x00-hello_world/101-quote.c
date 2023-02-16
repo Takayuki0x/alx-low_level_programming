@@ -1,4 +1,5 @@
-#include  <stdio.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /*
  * main - Printing Dora Korpar's quote
