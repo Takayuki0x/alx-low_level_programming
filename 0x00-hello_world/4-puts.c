@@ -2,13 +2,16 @@
 #include <string.h>
 
 /**
- *  Main function 
+ *  main - printing a string with puts
+ *
+ *  Description: This program prints "\"Programming is like building a multilingual puzzle"
+ *  using puts
+ *
+ *  Return: 0
  */
 
 int main(void)
 {
-	char st1[] = "\"Programming is like building a multilingual puzzle";
-	
-	puts(st1);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
