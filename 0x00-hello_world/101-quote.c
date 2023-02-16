@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/*
- * main - Printing Dora Korpar's quote
+/**
+ * main - printing Dora Korpar's quote
  *
  * Description - This program prints Dora Korpar's quote
  * without using printf or puts
