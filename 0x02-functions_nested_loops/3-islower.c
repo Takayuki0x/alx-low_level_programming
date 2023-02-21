@@ -2,6 +2,7 @@
 
 /**
  * _islower - checks if character is lowercase or not
+ * @c: character to check
  *
  * Return: 1 if c is lowercase, returns 0 otherwise
 */
@@ -12,7 +13,8 @@ if(c > 96 && c < 123)
 {
 return (1);
 }
-else {
+else 
+{
 return (0);
 }
 }
