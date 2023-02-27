@@ -8,5 +8,10 @@
 
 void _puts(char *str)
 {
-write(1, *str, 36);
+while (*str != '\0')
+{
+_putchar(*str + 0);
+++str;
+}
+_putchar('\n');
 }
