@@ -16,7 +16,7 @@ if (len % 2 == 0)
 {
 for (num = len / 2; str[num] != '\0'; ++num)
 _putchar(str[num]);
-} 
+}
 else
 {
 for (num = ((len - 1) / 2) + 1; str[num] != '\0'; ++num)
