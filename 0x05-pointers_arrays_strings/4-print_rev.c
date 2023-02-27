@@ -11,7 +11,7 @@ int length;
 
 while (*s != '\0')
 {
-length++;
+++length;
 ++s;
 }
 
