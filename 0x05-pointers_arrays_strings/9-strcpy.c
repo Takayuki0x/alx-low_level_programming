@@ -7,7 +7,7 @@
  * Return: A pointer to the destination buffer
 */
 
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
 {
 int i, j = 0;
 
