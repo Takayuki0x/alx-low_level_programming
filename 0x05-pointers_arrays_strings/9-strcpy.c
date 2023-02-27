@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - Copies the string pointed to by src to the des buffer
- * @des: Destination buffer
+ * @dest: Destination buffer
  * @src: Source string
  * Return: A pointer to the destination buffer
 */
