@@ -12,7 +12,7 @@ int length;
 
 while (*s != '\0')
 {
-str++;
+*str++;
 length++;
 }
 
