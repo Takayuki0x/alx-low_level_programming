@@ -21,9 +21,7 @@ nmbr = (nmbr * 10) + (*s - '0');
 
 else if (nmbr > 0)
 break;
+} while (*s++);
 
-} 
-while (*s++);
-
-return (nmbr * sign);
+return (nmbr *sign);
 }
