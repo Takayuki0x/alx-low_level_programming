@@ -14,7 +14,7 @@ int t, t2;
 
 t = 0;
 while (dest[t])
-		t++;
+t++;
 for (t2 = 0; src[t2] ; t2++)
 dest[t++] = src[t2];
 
