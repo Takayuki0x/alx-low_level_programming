@@ -7,11 +7,12 @@
 
 void puts2(char *str)
 {
-while (*str != '\0')
+int dexer;
+
+for (dexer = 0; str[dexer] != '\0'; ++dexer)
 {
-_putchar(*str + 0);
-++str;
-++str;
+if (dexer % 2 == 0)
+_putchar(str[dexer]);
 }
 _putchar('\n');
 }
